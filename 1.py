@@ -9,6 +9,6 @@ driver.find_element_by_id("gender-female").click()
 sleep(1)
 driver.find_element_by_name("FirstName").send_keys("shobha")
 driver.find_element_by_name("LastsName").send_keys("shobha123")
-
+driver.find_element_by_name("LastsName").send_keys("shobha123")
 
 
